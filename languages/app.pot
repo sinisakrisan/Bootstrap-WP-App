@@ -1,0 +1,255 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: App Theme Language File\n"
+"POT-Creation-Date: 2019-01-17 14:10+0100\n"
+"PO-Revision-Date: 2019-01-17 14:10+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: author.php:25
+msgid "Posts by: "
+msgstr ""
+
+#: category.php:10 loops/single-post.php:39
+msgid "Category: "
+msgstr ""
+
+#: functions/customizer.php:25
+msgid "Navbar Color"
+msgstr ""
+
+#: functions/customizer.php:26
+msgid "Choose one of the available Navbar colors"
+msgstr ""
+
+#: functions/customizer.php:56
+msgid "Navbar Accent"
+msgstr ""
+
+#: functions/customizer.php:57 functions/customizer.php:111
+#: functions/customizer.php:164
+msgid "Change the navbar accent color"
+msgstr ""
+
+#: functions/customizer.php:79
+msgid "Sidebar Color"
+msgstr ""
+
+#: functions/customizer.php:80
+msgid "Choose one of the available Sidebar colors"
+msgstr ""
+
+#: functions/customizer.php:110
+msgid "Sidebar Accent"
+msgstr ""
+
+#: functions/customizer.php:132
+msgid "Footer Color"
+msgstr ""
+
+#: functions/customizer.php:133
+msgid "Choose one of the available footer colors"
+msgstr ""
+
+#: functions/customizer.php:163
+msgid "Footer Accent"
+msgstr ""
+
+#: functions/index-pagination.php:18
+msgid "<i class=\"fas fa-angle-left\"></i> Newer"
+msgstr ""
+
+#: functions/index-pagination.php:19
+msgid "Older <i class=\"fas fa-angle-right\"></i>"
+msgstr ""
+
+#: functions/navbar.php:62
+msgid "Navbar"
+msgstr ""
+
+#: functions/setup.php:97 loops/index-post.php:35 loops/index-post.php:39
+msgid "Continue reading"
+msgstr ""
+
+#: functions/widgets.php:10
+msgid "Off-Canvas Sidebar"
+msgstr ""
+
+#: functions/widgets.php:12
+msgid "Add widgets here to appear in your off-canvas sidebar."
+msgstr ""
+
+#: functions/widgets.php:20
+msgid "User Bar"
+msgstr ""
+
+#: functions/widgets.php:22
+msgid "Add PeepSo User Bar widget here."
+msgstr ""
+
+#: functions/widgets.php:30
+msgid "Right Sidebar"
+msgstr ""
+
+#: functions/widgets.php:32
+msgid "Add widgets here to appear in your right sidebar."
+msgstr ""
+
+#: functions/widgets.php:52
+msgid "Footer"
+msgstr ""
+
+#: functions/widgets.php:54
+msgid "The footer widget area"
+msgstr ""
+
+#: header.php:26
+msgid ""
+"App Theme requires FREE version of PeepSo plugin to work properly. Please "
+"install PeepSo plugin first."
+msgstr ""
+
+#: loops/404.php:4
+msgid "Error"
+msgstr ""
+
+#: loops/404.php:6
+msgid "Sorry, we can&rsquo;t find what you were looking for."
+msgstr ""
+
+#: loops/index-loop.php:19
+msgid "Previous"
+msgstr ""
+
+#: loops/index-loop.php:21
+msgid "Next"
+msgstr ""
+
+#: loops/index-post.php:25
+msgid "By "
+msgstr ""
+
+#: loops/index-post.php:35 loops/index-post.php:39
+msgid "&hellip; "
+msgstr ""
+
+#: loops/search-results.php:16
+msgid "Sorry, your search yielded no results."
+msgstr ""
+
+#: loops/single-post-comments.php:103
+msgid "Your email address will not be published. Required fields are marked *"
+msgstr ""
+
+#: loops/single-post.php:23
+msgid "Author: "
+msgstr ""
+
+#: loops/single-post.php:25
+msgid " on "
+msgstr ""
+
+#: loops/single-post.php:39
+msgid "Comments"
+msgstr ""
+
+#: loops/single-post.php:59
+msgid "About Author"
+msgstr ""
+
+#: loops/single-post.php:85
+msgid "View profile page"
+msgstr ""
+
+#: loops/single-post.php:87
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: peepso/general/external-link-warning.php:59
+#, php-format
+msgid ""
+"The link you just clicked redirects to: <span class=\"ps-redirect__link"
+"\"><kbd>%s</kbd></span>"
+msgstr ""
+
+#: peepso/general/external-link-warning.php:61
+msgid "Do you want to continue?"
+msgstr ""
+
+#: peepso/general/external-link-warning.php:64
+msgid "No, take me back"
+msgstr ""
+
+#: peepso/general/external-link-warning.php:66
+msgid "Yes, take me there"
+msgstr ""
+
+#: peepso/widgets/login.tpl.php:44 peepso/widgets/login.tpl.php:106
+#: peepso/widgets/me.tpl.php:182
+msgid "Username"
+msgstr ""
+
+#: peepso/widgets/login.tpl.php:54 peepso/widgets/login.tpl.php:114
+#: peepso/widgets/me.tpl.php:192
+msgid "Password"
+msgstr ""
+
+#: peepso/widgets/login.tpl.php:62 peepso/widgets/login.tpl.php:63
+#: peepso/widgets/login.tpl.php:130 peepso/widgets/login.tpl.php:131
+#: peepso/widgets/me.tpl.php:200 peepso/widgets/me.tpl.php:201
+msgid "Remember Me"
+msgstr ""
+
+#: peepso/widgets/login.tpl.php:71 peepso/widgets/login.tpl.php:119
+#: peepso/widgets/me.tpl.php:175 peepso/widgets/me.tpl.php:209
+msgid "Login"
+msgstr ""
+
+#: peepso/widgets/login.tpl.php:80 peepso/widgets/me.tpl.php:225
+msgid "Register"
+msgstr ""
+
+#: peepso/widgets/login.tpl.php:87 peepso/widgets/login.tpl.php:141
+#: peepso/widgets/me.tpl.php:232
+msgid "Forgot Password"
+msgstr ""
+
+#: peepso/widgets/login.tpl.php:94 peepso/widgets/login.tpl.php:144
+#: peepso/widgets/me.tpl.php:239
+msgid "Resend activation code"
+msgstr ""
+
+#: peepso/widgets/me.tpl.php:83
+msgid "Control Panel"
+msgstr ""
+
+#: peepso/widgets/me.tpl.php:91 peepso/widgets/userbar.tpl.php:52
+msgid "Preferences"
+msgstr ""
+
+#: peepso/widgets/me.tpl.php:106 peepso/widgets/userbar.tpl.php:58
+#: peepso/widgets/userbar.tpl.php:99
+msgid "Log Out"
+msgstr ""
+
+#: peepso/widgets/me.tpl.php:143
+msgid "Community"
+msgstr ""
+
+#: peepso/widgets/userbar.tpl.php:105
+msgid "Log in"
+msgstr ""
+
+#: search.php:10
+msgid "Search Results for"
+msgstr ""

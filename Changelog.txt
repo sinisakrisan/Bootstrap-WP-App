@@ -1,0 +1,101 @@
+Changelog 
+* - bugfix
+# - Improvement
++ - new feature
+. - removed feature
+
+1.0.5
+<div class="card">
+	<div class="card-header"><h4>1.0.5</h4></div>
+	<div class="card-body">
+ 		<p><span class="badge badge-danger badge-pill">Removed Feature</span> Temporarily remove overrides for Login and PeepSo Profile widgets to avoid login issues. (they will be back in future updates)</p>
+	</div>
+	<div class="card-footer">
+		<small><i class="fa fa-calendar"></i> October 28. 2018</small>
+	</div>
+</div>
+
+
+<div class="card">
+	<div class="card-header"><h4>1.0.4</h4></div>
+	<div class="card-body">
+ 		<p><span class="badge badge-success badge-pill">New Feature</span> Add override support for PeepSo UserBar widget</p>
+	</div>
+	<div class="card-footer">
+		<small><i class="fa fa-calendar"></i> October 3. 2018</small>
+	</div>
+</div>
+
+
+<div class="card">
+	<div class="card-header"><h4>1.0.3</h4></div>
+	<div class="card-body">
+ 		<p><span class="badge badge-success badge-pill">New Feature</span> Add override support for outbound link redirect page.</p>
+ 		<p><span class="badge badge-success badge-pill">New Feature</span> Generate translation files</p>
+ 		<p><span class="badge badge-success badge-pill">New Feature</span> Generate Child Theme as a separate download</p>
+		<p><span class="badge badge-success badge-info">Improvement</span> Add more info to updater</p>
+		<p><span class="badge badge-success badge-info">Improvement</span> Consolidate CSS in Off-Canvas Sidebar</p>
+		<p><span class="badge badge-success badge-info">Improvement</span> Update Theme Screenshot</p>
+		<p><span class="badge badge-success badge-warning">Bug Fix</span> Fix author avatar not following the setting in PeepSop>
+		<p><span class="badge badge-success badge-warning">Bug Fix</span> Widget areas must have unique classes</p>
+		<p><span class="badge badge-success badge-warning">Bug Fix</span> Fix duplicate classes in navbar dropdown</p>
+	</div>
+	<div class="card-footer">
+		<small><i class="fa fa-calendar"></i> October 2. 2018</small>
+	</div>
+</div>
+
+
+<div class="card">
+	<div class="card-header"><h4>1.0.2</h4></div>
+	<div class="card-body">
+ 		<p><span class="badge badge-success badge-pill">New Feature</span> Add override support for PeepSo BlogPosts plugin</p>
+ 		<p><span class="badge badge-success badge-pill">New Feature</span> Add override support for PeepSo Profile Widget</p>
+ 		<p><span class="badge badge-success badge-pill">New Feature</span> Add override support for PeepSo Login Widget</p>
+	</div>
+	<div class="card-footer">
+		<small><i class="fa fa-calendar"></i> October 1. 2018</small>
+	</div>
+</div>
+
+
+<div class="card">
+	<div class="card-header">
+		<h4>1.0.1</h4>
+	</div>
+	<div class="card-body">
+ 		<p><span class="badge badge-success badge-pill">New Feature</span> Add the PeepSo check and display nag alert when PeepSo is not activated</p>
+		<p><span class="badge badge-success badge-info">Improvement</span> Change the text in author box if option to always link to PeepSo profile is enabled</p>
+		<p><span class="badge badge-success badge-info">Improvement</span> Minor improvements to the single-post.php loop to remove unwanted info</p>
+		<p><span class="badge badge-success badge-warning">Bug Fix</span> Fix for embeeded stream content not being responsive</p>
+	</div>
+	<div class="card-footer">
+		<small><i class="fa fa-calendar"></i> September 25. 2018</small>
+	</div>
+</div>
+
+
+<div class="card">
+	<div class="card-header">
+		<h4>1.0.0</h4> 
+	</div>
+	<div class="card-body">
+ 		<p><span class="badge badge-success badge-pill">New Feature</span> Initial Release</p>
+	</div>
+	<div class="card-footer">
+		<small><i class="fa fa-calendar"></i> September 19. 2018</small>
+	</div>
+</div>
+
+============================ HTML LAYOUT ===================
+<div class="card">
+	<div class="card-header"><h4>Version Number</h4></div>
+	<div class="card-body">
+ 		<p><span class="badge badge-success badge-pill">New Feature</span> Text.</p>
+		<p><span class="badge badge-success badge-info">Improvement</span> Text.</p>
+		<p><span class="badge badge-success badge-warning">Bug Fix</span> Text.</p>
+	</div>
+	<div class="card-footer">
+		<small><i class="fa fa-calendar"></i> October 2. 2018</small>
+	</div>
+</div>
