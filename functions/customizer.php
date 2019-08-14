@@ -296,37 +296,38 @@ function app_customizer_settings($wp_customize) {
     $colors[] = array(
         'slug'=>'navbar_color', 
         'default' => '#5c4186',
-        'label' => 'Navbar Color'
+        'label' => __( 'Navbar Color', 'app' )
     );
     
     // sidebar background
     $colors[] = array(
         'slug'=>'sidebar_color', 
         'default' => '#5c4186',
-        'label' => 'Sidebar Color'
+        'label' => __( 'Sidebar Color', 'app' )
     );
  
     // footer background
     $colors[] = array(
         'slug'=>'footer_color', 
         'default' => '#5c4186',
-        'label' => 'Footer Color'
+        'label' => __( 'Footer Color', 'app' )
     );
  
-    /* link color
+    /* link color 
     $colors[] = array(
         'slug'=>'link_color', 
         'default' => '#15179f',
-        'label' => 'Link Color'
+        'label' => __( 'Link Color', 'app' )
     );
  
     // link color ( hover, active )
     $colors[] = array(
         'slug'=>'hover_link_color', 
         'default' => '#485b9f',
-        'label' => 'Link Color (on hover)'
+        'label' => __( 'Hover Link Color', 'app' )
     );
     */
+    
     
     // add the settings and controls for each color
     foreach( $colors as $color ) {
@@ -461,11 +462,13 @@ function app_custom_colors() {
         a:link, a:visited { 
             color:  <?php echo $link_color; ?>; 
         }
+        */
         /* hover links color
         a:hover, a:active {
             color:  <?php echo $hover_link_color; ?>; 
         }
         */
+        
     </style>
      
 <?php
