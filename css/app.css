@@ -407,6 +407,10 @@ a.app-quicklink-item:hover{text-decoration: none;}
     position: relative;
     margin-right: 0;
   }
+  .ps-dropdown--stream-filter {
+    padding: 5px;
+    width: 25%;
+  }
 }
 
 /* Max 768px (tablets and phones) */
