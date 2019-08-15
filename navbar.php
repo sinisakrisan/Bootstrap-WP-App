@@ -3,7 +3,7 @@
   <a href="#menu-toggle" class="btn btn-<?php esc_html_e( get_theme_mod( 'app_navbar_color' ) ); ?> mr-3" id="menu-toggle"><i class="fa fa-columns"></i></a>
 
   <?php if ( is_active_sidebar( 'userbar' ) ) : ?>
-  <div id="userbar" class="userbar widget-area" role="navigation">
+  <div id="userbar-widget" class="userbar-widget widget-area" role="navigation">
     <?php dynamic_sidebar( 'userbar' ); ?>
   </div><!-- #primary-sidebar -->
   <?php endif; ?>
@@ -25,14 +25,14 @@
           'walker'          => new app_walker_nav_menu()
         ) );
       ?>
-
-
-    <form class="form-inline ml-auto pt-2 pt-md-0" role="search" method="get" id="searchform" action="<?php echo esc_url( home_url( '/' ) ); ?>">
-        <input class="form-control mr-sm-1" type="text" value="<?php echo get_search_query(); ?>" placeholder="Search..." name="s" id="s">
-
-        <button type="submit" id="searchsubmit" value="<?php esc_attr_x('Search', 'app') ?>" class="btn btn-default my-2 my-sm-0">
-          <i class="fa fa-search"></i>
-        </button>
-      </form>
+      
+    <!-- Search Widget -->
+    <?php if ( is_active_sidebar( 'search' ) ) : ?>
+		  <div id="search-widget" class="search-widget widget-area" role="complementary">
+			 <?php dynamic_sidebar( 'search' ); ?>
+		  </div>
+    <?php endif; ?>
+    <!-- Search Widget -->
+    
   </div>
 </nav>

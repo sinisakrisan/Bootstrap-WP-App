@@ -15,8 +15,10 @@
  
 		<?php // add a fallback if the logo doesn't exist
 			else : ?>
+    
+    <img src="<?php echo get_template_directory_uri() . '/images/logo.png'?>" alt="logo">
  
-		<h3 class="site-title"><?php bloginfo( 'name' ); ?></h3>
+		
  
 		<?php endif; ?>
 

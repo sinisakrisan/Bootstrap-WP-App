@@ -12,8 +12,8 @@ function app_widgets_init() {
     'description'   => __( 'Add widgets here to appear in your off-canvas sidebar. Best place to show PeepSo Profile widget', 'app' ),
     'before_widget' => '<div>',
     'after_widget'  => '</div>',
-    'before_title'  => '<h2 class="rounded">',
-    'after_title'   => '</h2>',
+    'before_title'  => '<h4>',
+    'after_title'   => '</h4>',
   ) );
 
   register_sidebar( array(
@@ -22,6 +22,16 @@ function app_widgets_init() {
     'description'   => __( 'Add PeepSo User Bar widget here.', 'app' ),
     'before_widget' => '<div>',
     'after_widget'  => '</div>',
+    'before_title'  => '<div style="display:none">',
+    'after_title'   => '</div>',
+  ) );
+  
+  register_sidebar( array(
+    'name'          => __( 'Search', 'app' ),
+    'id'            => 'search',
+    'description'   => __( 'Search widget position.', 'app' ),
+    'before_widget' => '',
+    'after_widget'  => '',
     'before_title'  => '<div style="display:none">',
     'after_title'   => '</div>',
   ) );
